@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/settings"
+        android:title="@string/setting_name"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_settings"
+
+        />
+
+    <item android:id="@+id/notes"
+        android:title="@string/notes_name"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notes"
+
+        />
+    <item android:id="@+id/shop_list"
+        android:title="@string/shop_list"
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_shop_list"
+
+        />
+    <item android:id="@+id/new_item"
+        android:title="@string/new_item"
+        android:orderInCategory="400"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_new_item"
+
+        />
+
+</menu>

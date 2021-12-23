@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:cardBackgroundColor="@color/back_new_note"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <EditText
+                android:id="@+id/edName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="8dp"
+                android:maxLength="30"
+                android:background="@color/white"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                 />
+
+            <EditText
+                android:id="@+id/edDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:maxLength="50"
+                android:layout_marginTop="16dp"
+                android:background="@color/white"
+                android:hint="Description"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+
+            <Button
+                android:id="@+id/bUpdate"
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:backgroundTint="@color/picker_green"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content"
+                android:text="Save changes" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

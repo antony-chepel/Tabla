@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ShoppingTaskList</string>
+    <string name="setting_name">Settings</string>
+    <string name="notes_name">Notes</string>
+    <string name="shop_list">ShopList</string>
+    <string name="new_item">New</string>
+    <string name="title_hint">Title</string>
+    <string name="desc_hint">Description</string>
+    <string name="new_list_name">New list name</string>
+    <string name="update_text_button">Update List</string>
+    <string name="create_text_button">Create List</string>
+
+
+
+    <string name="ask_delete">Do u want delete this item?</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
